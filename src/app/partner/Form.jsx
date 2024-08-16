@@ -23,13 +23,14 @@ const Form = () => {
       // console.log(res);
       reset()
       Swal.fire({
-        title: '<span class="text-md font-semibold">Thank you for submitting. Our team will get in touch with you shortly. In the meantime, you can call or WhatsApp us at:</span>',
-        icon: 'success',
-        html: '<a href="https://api.whatsapp.com/send?phone=917738182493" target="_blank" style="color: #007bff; text-decoration: none;">8879949404</a>',
-        showConfirmButton: true,
-        allowOutsideClick: true,
-        confirmButtonText: "Ok"
-      });
+  title: '<span class="text-[20px] font-semibold">Thank you for submitting. Our team will get in touch with you shortly. In the meantime, you can call or WhatsApp us at:</span>',
+  icon: 'success',
+  html: '<a href="https://api.whatsapp.com/send?phone=917738182493" target="_blank" style="color: #007bff; text-decoration: none; font-size: 20px;">8879949404</a>',
+  showConfirmButton: true,
+  allowOutsideClick: true,
+  confirmButtonText: "Ok"
+});
+
       
     } catch (error) {
       console.log(error);
