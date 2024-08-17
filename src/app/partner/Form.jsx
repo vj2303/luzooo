@@ -25,7 +25,7 @@ const Form = () => {
       Swal.fire({
   title: '<span class="text-[20px] font-semibold">Thank you for submitting. Our team will get in touch with you shortly. In the meantime, you can call or WhatsApp us at:</span>',
   icon: 'success',
-  html: '<a href="https://api.whatsapp.com/send?phone=918879949404" target="_blank" style="color: #007bff; text-decoration: none; font-size: 20px;">8879949404</a>',
+  html: '<a href="https://api.whatsapp.com/send?phone=+918879949404" target="_blank" style="color: #007bff; text-decoration: none; font-size: 20px;">8879949404</a>',
   showConfirmButton: true,
   allowOutsideClick: true,
   confirmButtonText: "Ok"
